@@ -15,6 +15,7 @@ Widget::Widget(QWidget *parent) :
 
     ui->listWidget->setSelectionMode(QAbstractItemView::ExtendedSelection);
     ui->checkBoxAutoSort->setCheckState(Qt::Checked);
+
 }
 
 Widget::~Widget()
